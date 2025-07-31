@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sobiya Johny</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobiya - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; line-height: 1.6; background: #f4f4f4; color: #333; }
+    header { background: #2c3e50; color: white; padding: 20px 0; position: sticky; top: 0; z-index: 10; }
+    nav { max-width: 1100px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+    nav h1 { font-size: 24px; }
+    nav ul { list-style: none; display: flex; }
+    nav ul li { margin-left: 20px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+    nav ul li a:hover { color: #f39c12; }
+
+    section { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    h2 { font-size: 28px; margin-bottom: 10px; color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+
+    .section-content { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body>
-  <h1>Sobiya</h1>
-  <p>Email: sobiya3435@gmail.com</p>
-  <p>Web Developer with 3+ years of experience...</p>
+
+  <header>
+    <nav>
+      <h1>Sobiya</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="section-content">
+      <p>Hello! I'm Sobiya, a passionate and dedicated developer seeking exciting job opportunities to showcase my skills and grow professionally.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="section-content">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>PHP, CodeIgniter, MySQL</li>
+        <li>React, Git, REST APIs</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="section-content">
+      <ul>
+        <li><strong>Project A:</strong> Developed a complete e-commerce site using CodeIgniter.</li>
+        <li><strong>Project B:</strong> Built a dashboard for loan tracking and reporting.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="section-content">
+      <p>2 years of experience in web development, building responsive and dynamic web apps with backend integration.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="section-content">
+      <p>Bachelor of Computer Applications (BCA)</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="section-content">
+      <p>Email: sobiya@example.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sobiya. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
+
